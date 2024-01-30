@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import prisma from "../../../../prisma/client";
-import PostDTO from "../DTO/PostsDTO";
-import ResponseDTO from "../DTO/ResponseDTO";
+import PostDTO from "../../dto/PostsDTO";
+import ResponseDTO from "../../dto/ResponseDTO";
 
 export async function GET() {
   try {
